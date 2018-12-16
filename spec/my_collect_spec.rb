@@ -50,6 +50,10 @@ describe "my_collect" do
   end
 end
 
+array = ["Naina Sethi", "Mamma Sethi", "Jassi Sethi"]
+my_collect(array) do |name|
+  name.split(" ").first
+end
 
 
 
