@@ -61,5 +61,5 @@ def my_collect(array)
   collection
 end
 
-my_collect (["Tim Jones", "Tom Smith", "Jim Campagno"]) 
+my_collect (["Tim Jones", "Tom Smith", "Jim Campagno"])  { |name| "Hi, #{name}" }
 
