@@ -49,3 +49,15 @@ describe "my_collect" do
     expect(students).to eq(['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller'])
   end
 end
+
+  def my_collect (array)
+  i = 0 
+  collection = [ ]
+  while i < array.length
+  collection << yield (array[i])
+  i += 1
+  end
+collection 
+end
+
+
