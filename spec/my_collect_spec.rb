@@ -51,6 +51,9 @@ describe "my_collect" do
 end
 
 array = ["Naina Sethi", "Mamma Sethi", "Jassi Sethi"]
+my_collect(array) do |name|
+  name.split(" ").first
+end
 
 def my_collect(array)
   i = 0
