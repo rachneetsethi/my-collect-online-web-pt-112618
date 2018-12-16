@@ -52,7 +52,6 @@ end
 
 array = ["Naina Sethi", "Mamma Sethi", "Jassi Sethi"]
 
-
 def my_collect(array)
   i = 0
   collection = []
@@ -63,7 +62,7 @@ def my_collect(array)
   collection
 end
 
-my_collect(["Naina Sethi", "Mamma Sethi", "Jassi Sethi"])
+my_collect (["Naina Sethi", "Mamma Sethi", "Jassi Sethi"]) 
 
 
 
