@@ -61,7 +61,4 @@ def my_collect(array)
   collection
 end
 
-my_collect (["Naina Sethi", "Mamma Sethi", "Jassi Sethi"]) 
-
-
 
